@@ -10,8 +10,14 @@ Steam Deck Config
 My Steam Deck config and customization.
 </p>
 
+<p align="center">
+    <span>English</span>
+    <span style="margin-inline: 3px;">|</span>
+    <a href="./README.zh_hans.md">简体中文</a>
+</p>
+
 # Preparation
-Mostly, we config our Steam Deck in `Desktop Mode`, so I highly recommend you connect your device with: 
+Mostly, we config our Steam Deck in `Desktop Mode`, so I highly recommend you connect your device with
 a `USB Hub` , then connect your `mouse` and `keyboard` . `Bluetooth` keyboard and mouse are also good.
 
 If you don't have external mouse and keyboard besides you, just use the buttons.
@@ -64,10 +70,13 @@ sudo flatpak remote-modify flathub --url=https://mirror.sjtu.edu.cn/flathub
 sudo flatpak remote-add flathub https://mirror.sjtu.edu.cn/flathub/flathub.flatpakrepo
 ```
 
+## Install a browser
+Some plugins may depend on browser to setup, so a browser is needed. You can install any browser you are favorite. Directly install it through `Discover`.
+
 # Customizations
 
 ## Google Chrome
-Some plugins may depend on browser to setup, so a browser is needed. Directly install it through `Discover`.
+Directly install it through `Discover`.
 
 ## Decky Loader
 **`Decky Loader`** is a `plugin store` in `Gaming Mode`, you can press `...` button to find it after installation.
