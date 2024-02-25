@@ -68,8 +68,7 @@ sudo flatpak remote-add flathub https://mirror.sjtu.edu.cn/flathub/flathub.flatp
 ```
 
 ## 安装一个浏览器
-一些插件可能依赖你的浏览器来做设置，所以安装一个浏览器还是有必要的。
-你可以安装任何你喜欢的浏览器，直接在`Discover`搜索即可。
+一些插件可能依赖你的浏览器来做设置，所以安装一个浏览器还是有必要的。你可以安装任何你喜欢的浏览器，直接在`Discover`搜索即可。
 
 # 个性化设置
 
@@ -110,7 +109,9 @@ curl -L http://dl.ohmydeck.net | sh
 
 ### 卸载 `Decky Loader`（如果你需要）
 
-如果您曾使用 `decky_installer.desktop`安装，请在`Application Menu(姑且叫开始菜单吧)` 选择`uninstall decky loader`, 找不到可以搜索，总之运行`uninstall decky loader`就行。
+如果您曾使用 `decky_installer.desktop`安装，请在`Application Menu(姑且叫开始菜单吧)`选择`uninstall decky loader`。
+
+找不到可以搜索，总之运行`uninstall decky loader`就行。
 
 如果您曾使用`Konsole终端输入脚本方式`安装, 运行以下脚本卸载:
 ```shell
