@@ -117,8 +117,8 @@ Sometimes, `Decky` disappear after `Steam OS update`, just reinstall it using th
 
 ### Plugins I currently use
 - `SteamGridDB` - Add artwork to your non-steam apps.
+![decky](./.github/SteamGridDB.png)
 - `vibrantDeck` - Change saturation of your screen.
-![decky](./.github/decky.png)
 
 ## RPCS3 (PS3 Emulator)
 See this part in my repo: [https://github.com/Vincent-the-gamer/linux-rpcs3-quickstart](https://github.com/Vincent-the-gamer/linux-rpcs3-quickstart)
