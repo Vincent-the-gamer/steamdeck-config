@@ -87,6 +87,8 @@ Firstly, Do the following things:
 
 4. Restart Steam Deck (Reboot).
 
+After reboot, Your device will enter `Gaming Mode` defaultly, you need to switch back to `Desktop Mode`.
+
 Then, you can choose either way:
 - Download [`decky_installer.desktop`](https://decky.xyz/download).
 - Or, fast install it using `Konsole`.
