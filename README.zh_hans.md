@@ -93,43 +93,43 @@ GitHub: [https://github.com/SteamDeckHomebrew/decky-loader](https://github.com/S
 3. 选择 `开发者`栏, 找到 `CEF远程调试` 并启用它。
 4. 重启你的Steam Deck系统。
 
-After reboot, Your device will enter `Gaming Mode` defaultly, you need to switch back to `Desktop Mode`.
+重启过后, 你的设备会默认返回 `游戏模式`，你需要切换至`桌面模式`来完成后续配置。
 
-Then, you can choose either way:
-- Download [`decky_installer.desktop`](https://decky.xyz/download).
-- Or, fast install it using `Konsole`.
+然后, 你可以从以下安装方式中选一个:
+- 下载 [`decky_installer.desktop`](https://decky.xyz/download)。
+- 或者, 使用`Konsole`输入脚本快速安装。
 ```shell
-# Official mirror
+# 官方镜像
 curl -L https://github.com/SteamDeckHomebrew/decky-installer/releases/latest/download/install_release.sh | sh
 
-# China mirror
+# 国内镜像
 curl -L http://dl.ohmydeck.net | sh
 ```
 
-Finally, Switch to `Gaming Mode` and push `...` button, you can see `Decky` menu.
+最后, 切换到`游戏模式`，按下`...` 键, 就可以找到`Decky`。
 
-### Uninstall `Decky Loader`
+### 卸载 `Decky Loader`（如果你需要）
 
-If you installed it with `decky_installer.desktop`, please choose `uninstall decky loader` in `Application Menu`
+如果您曾使用 `decky_installer.desktop`安装，请在`Application Menu(姑且叫开始菜单吧)` 选择`uninstall decky loader`, 找不到可以搜索，总之运行`uninstall decky loader`就行。
 
-If you installed it with `shell script`, run:
+如果您曾使用`Konsole终端输入脚本方式`安装, 运行以下脚本卸载:
 ```shell
 # uninstall_release.sh
 curl -L https://github.com/SteamDeckHomebrew/decky-installer/releases/latest/download/uninstall_release.sh | sh
 ```
 
-### Notice
-Sometimes, `Decky` disappear after `Steam OS update`, just reinstall it using the methods above, your config of plugins will keep.
+### 注意
+某些时候, `Decky` 会在 `Steam OS 系统更新`后消失, 这时使用以上方法重装即可，你之前的设置会被保留，不用怕丢失。
 
-### Plugins I currently use
-- `SteamGridDB` - Add artwork to your non-steam apps.
-![decky](./.github/SteamGridDB.png)
-- `vibrantDeck` - Change saturation of your screen.
+### 我当前使用的插件
+- `SteamGridDB` - 为你的非Steam应用添加封面图片。
+![steamgriddb](./.github/SteamGridDB.png)
+- `vibrantDeck` - 调整屏幕对比度。
 
-## RPCS3 (PS3 Emulator)
-See this part in my repo: [https://github.com/Vincent-the-gamer/linux-rpcs3-quickstart](https://github.com/Vincent-the-gamer/linux-rpcs3-quickstart)
+## RPCS3 (PS3模拟器)
+我准备了另外一个仓库: [https://github.com/Vincent-the-gamer/linux-rpcs3-quickstart](https://github.com/Vincent-the-gamer/linux-rpcs3-quickstart)
 
-# Todo List
-- `Chiaki4deck` - Streaming PlayStation consoles on Steam Deck.
-- `Yuzu`(maybe) - Emulating `Nintendo Switch`, but let me think more about it as I already have a Switch, emmm..... 
+# Todo列表
+- `Chiaki4deck` - 在Steam Deck上串流游玩PlayStation主机游戏。
+- `Yuzu`(可能吧) - 模拟`Nintendo Switch`, 但是我已经有Switch了还需要吗, emmm..... 
 - ...

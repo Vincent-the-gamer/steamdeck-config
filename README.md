@@ -111,9 +111,9 @@ curl -L http://dl.ohmydeck.net | sh
 
 Finally, Switch to `Gaming Mode` and push `...` button, you can see `Decky` menu.
 
-### Uninstall `Decky Loader`
+### Uninstall `Decky Loader` (if needed)
 
-If you installed it with `decky_installer.desktop`, please choose `uninstall decky loader` in `Application Menu`
+If you installed it with `decky_installer.desktop`, please choose `uninstall decky loader` in `Application Menu`, or search `uninstall decky loader`, just find it and run.
 
 If you installed it with `shell script`, run:
 ```shell
@@ -126,7 +126,7 @@ Sometimes, `Decky` disappear after `Steam OS update`, just reinstall it using th
 
 ### Plugins I currently use
 - `SteamGridDB` - Add artwork to your non-steam apps.
-![decky](./.github/SteamGridDB.png)
+![steamgriddb](./.github/SteamGridDB.png)
 - `vibrantDeck` - Change saturation of your screen.
 
 ## RPCS3 (PS3 Emulator)
