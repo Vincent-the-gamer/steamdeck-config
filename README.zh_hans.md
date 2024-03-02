@@ -31,6 +31,8 @@ Steam Deck 配置
 
 这样，你就可以直接在`桌面模式`控制你的设备了，就是稍微有点`不方便`。 
 
+如果您感觉使用按键操作不太舒服, 你可以开启`远程桌面`。如何开启？请看：[启用远程桌面](#如何启用远程桌面)。
+
 # 环境配置
 
 ## 一定要先做的步骤
@@ -54,7 +56,9 @@ sudo steamos-readonly disable
 sudo steamos-readonly enable
 ```
 
-## 配置 `Flatpak`
+## 推荐设置
+
+### 配置 `Flatpak`
 对于 `大多数用户`来说，可以跳过这部分。这部分是为使用`Discover`有困难的用户而准备，主要面向中国用户。
 
 如果你的 `Discover` 一直转圈圈，搜不到任何东西, 请`切换镜像源`。
@@ -67,8 +71,33 @@ sudo flatpak remote-modify flathub --url=https://mirror.sjtu.edu.cn/flathub
 sudo flatpak remote-add flathub https://mirror.sjtu.edu.cn/flathub/flathub.flatpakrepo
 ```
 
-## 安装一个浏览器
+### 安装一个浏览器
 一些插件可能依赖你的浏览器来做设置，所以安装一个浏览器还是有必要的。你可以安装任何你喜欢的浏览器，直接在`Discover`搜索即可。
+
+### 启用`远程桌面`
+Steam Deck 使用 `KDE Plasma` 桌面, 它自带了 `KDE Desktop Sharing`这个功能。
+
+我们需要在Deck上安装`krfb`, 然后使用 `VNC` 协议来连接我们的Deck, Deck需要处于`桌面模式`下。
+
+```shell
+sudo pacman -Sy krfb
+```
+
+笔记:
+1. 如果您`使用pacman安装包时遇到unknown trust`, 请运行以下命令:
+```shell
+# 第一步
+sudo pacman-key --init
+
+# 第二步
+sudo pacman-key --populate archlinux
+sudo pacman-key --populate holo
+```
+
+然后, 重新运行您的命令。
+
+2. 在之前的步骤中, 我们为当前用户 **`设置过密码`**，所以您在远程连接的过程中可能会被要求输入密码。
+
 
 # 个性化设置
 
@@ -120,7 +149,7 @@ curl -L https://github.com/SteamDeckHomebrew/decky-installer/releases/latest/dow
 ```
 
 ### 注意
-某些时候, `Decky` 会在 `Steam OS 系统更新`后消失, 这时使用以上方法重装即可，你之前的设置会被保留，不用怕丢失。
+某些时候, `Decky` 会在 `SteamOS 系统更新`后消失, 这时使用以上方法重装即可，你之前的设置会被保留，不用怕丢失。
 
 ### 我当前使用的插件
 - `SteamGridDB` - 为你的非Steam应用添加封面图片。

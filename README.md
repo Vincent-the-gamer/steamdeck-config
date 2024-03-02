@@ -33,6 +33,8 @@ This is a part of key mappings.
 
 By this way, you can directly control your device in `Desktop Mode`, but it's a little bit `inconvenient`.
 
+If you feel hard to operate Deck using buttons, you may enable `Remote Desktop`. See: [Enable Remote Desktop](#enable-remote-desktop).
+
 # Environment
 
 ## Do it first!
@@ -56,8 +58,9 @@ sudo steamos-readonly disable
 sudo steamos-readonly enable
 ```
 
+## Recommended Options
 
-## Config `Flatpak`
+### Config `Flatpak`
 For `most users`, you can skip this part. This part is for users who have trouble searching apps in `Discover`, mainly for `users in China`.
 
 If your `Discover` searching has no response, please `change the remote mirror`.
@@ -70,8 +73,33 @@ sudo flatpak remote-modify flathub --url=https://mirror.sjtu.edu.cn/flathub
 sudo flatpak remote-add flathub https://mirror.sjtu.edu.cn/flathub/flathub.flatpakrepo
 ```
 
-## Install a browser
+### Install a browser
 Some plugins may depend on browser to setup, so a browser is needed. You can install any browser you are favorite. Directly install it through `Discover`.
+
+### Enable `Remote Desktop`
+Steam Deck using `KDE Plasma` desktop, which bundled `KDE Desktop Sharing`.
+
+We need to install `krfb` on Deck, then we can use `VNC` protocol to remote connect our device in `Desktop Mode`.
+
+```shell
+sudo pacman -Sy krfb
+```
+
+Note:
+1. If you `can't install pacman packages because of unknown trust`, please do:
+```shell
+# Step 1
+sudo pacman-key --init
+
+# Step 2
+sudo pacman-key --populate archlinux
+sudo pacman-key --populate holo
+```
+
+Then, re-run your command.
+
+2. In the previous steps, we **`set password`** to our current user, so you may need to enter password while remote connecting.
+
 
 # Customizations
 
@@ -122,7 +150,7 @@ curl -L https://github.com/SteamDeckHomebrew/decky-installer/releases/latest/dow
 ```
 
 ### Notice
-Sometimes, `Decky` disappear after `Steam OS update`, just reinstall it using the methods above, your config of plugins will keep.
+Sometimes, `Decky` disappear after `SteamOS update`, just reinstall it using the methods above, your config of plugins will keep.
 
 ### Plugins I currently use
 - `SteamGridDB` - Add artwork to your non-steam apps.
