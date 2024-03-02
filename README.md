@@ -52,7 +52,7 @@ passwd
 ### Disable `steamdeck-readonly`
 
 > [!NOTE]
-> You may need re-run the following commands after system update.
+> You may need to re-run the following commands after system update.
 
 ```shell
 # disable
@@ -95,7 +95,7 @@ sudo pacman -Sy krfb
 If you `can't install pacman packages because of unknown trust`, please do:
 
 > [!NOTE]
-> You may need re-run the following commands after system update.
+> You may need to re-run the following commands after system update.
 
 ```shell
 # Step 1
