@@ -48,6 +48,10 @@ passwd
 ```
 
 ### 禁用 `steamdeck-readonly（文件只读模式）`
+
+> [!NOTE]
+> 更新系统后可能需要重新运行以下命令。
+
 ```shell
 # 禁用
 sudo steamos-readonly disable
@@ -87,6 +91,10 @@ sudo pacman -Sy krfb
 ```
 
 如果您`使用pacman安装包时遇到unknown trust`, 请运行以下命令:
+
+> [!NOTE]
+> 更新系统后可能需要重新运行以下命令。
+
 ```shell
 # 第一步
 sudo pacman-key --init
