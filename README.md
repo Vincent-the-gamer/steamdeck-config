@@ -84,7 +84,7 @@ sudo flatpak remote-add flathub https://mirror.sjtu.edu.cn/flathub/flathub.flatp
 Some plugins may depend on browser to setup, so a browser is needed. You can install any browser you are favorite. Directly install it through `Discover`.
 
 ### Enable `Remote Desktop`
-Steam Deck using `KDE Plasma` desktop, we can use `krfb` to start a `remote desktop` service.
+Steam Deck uses `KDE Plasma` desktop, we can use `krfb` to start a `remote desktop` service.
 
 We need to install `krfb` on Deck, then we can use `VNC` protocol to remote connect our device in `Desktop Mode`.
 
@@ -108,16 +108,14 @@ sudo pacman-key --populate holo
 
 Then, re-run your command.
 
-Finally, use your `VNC Client` to connect.
+Now you can use your `VNC Client` to connect to the Deck. `Default port: 5900`.
 
+#### VNC Client
 For Windows users, `VNC Viewer` is an option.
 
 The app in the picture below is `Royal TSX`.
 
-`Default port: 5900`.
-
 ![remote](./.github/remote-desktop.png)
-
 
 # Customizations
 

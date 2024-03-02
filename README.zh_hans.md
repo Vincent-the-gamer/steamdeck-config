@@ -106,11 +106,11 @@ sudo pacman-key --populate holo
 
 然后, 重新运行您的命令。
 
-最后, 使用`VNC客户端`来连接。Windows平台可以使用`VNC Viewer`。
+现在, 您可以使用`VNC客户端`来连接了。`默认端口: 5900`。
 
+#### VNC 客户端
+Windows平台可以使用`VNC Viewer`。
 下图为：`Royal TSX`。
-
-`默认端口: 5900`
 
 ![remote](./.github/remote-desktop.png)
 
