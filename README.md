@@ -37,7 +37,7 @@ If you feel hard to operate Deck using buttons, you may enable `Remote Desktop`.
 
 # Environment
 
-## Do it first!
+## Do it first
 
 ### Add password to current user
 In `Desktop Mode`, open `Konsole`, and `add a password` to current user, for sudo use.
@@ -60,6 +60,9 @@ sudo steamos-readonly enable
 
 ## Recommended Options
 
+### Change `Desktop Mode` Language
+You can choose your language in `Desktop Mode`, follow the guide in KDE UserBase Wiki: [https://userbase.kde.org/Tutorials/Change_Plasma_Language](https://userbase.kde.org/Tutorials/Change_Plasma_Language)
+
 ### Config `Flatpak`
 For `most users`, you can skip this part. This part is for users who have trouble searching apps in `Discover`, mainly for `users in China`.
 
@@ -77,7 +80,7 @@ sudo flatpak remote-add flathub https://mirror.sjtu.edu.cn/flathub/flathub.flatp
 Some plugins may depend on browser to setup, so a browser is needed. You can install any browser you are favorite. Directly install it through `Discover`.
 
 ### Enable `Remote Desktop`
-Steam Deck using `KDE Plasma` desktop, which bundled `KDE Desktop Sharing`.
+Steam Deck using `KDE Plasma` desktop, we can use `krfb` to start a `remote desktop` service.
 
 We need to install `krfb` on Deck, then we can use `VNC` protocol to remote connect our device in `Desktop Mode`.
 
@@ -85,8 +88,7 @@ We need to install `krfb` on Deck, then we can use `VNC` protocol to remote conn
 sudo pacman -Sy krfb
 ```
 
-Note:
-1. If you `can't install pacman packages because of unknown trust`, please do:
+If you `can't install pacman packages because of unknown trust`, please do:
 ```shell
 # Step 1
 sudo pacman-key --init
@@ -98,7 +100,15 @@ sudo pacman-key --populate holo
 
 Then, re-run your command.
 
-2. In the previous steps, we **`set password`** to our current user, so you may need to enter password while remote connecting.
+Finally, use your `VNC Client` to connect.
+
+For Windows users, `VNC Viewer` is an option.
+
+The app in the picture below is `Royal TSX`.
+
+`Default port: 5900`.
+
+![remote](./.github/remote-desktop.png)
 
 
 # Customizations

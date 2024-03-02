@@ -31,7 +31,7 @@ Steam Deck 配置
 
 这样，你就可以直接在`桌面模式`控制你的设备了，就是稍微有点`不方便`。 
 
-如果您感觉使用按键操作不太舒服, 你可以开启`远程桌面`。如何开启？请看：[启用远程桌面](#如何启用远程桌面)。
+如果您感觉使用按键操作不太舒服, 你可以开启`远程桌面`。如何开启？请看：[启用远程桌面](#启用远程桌面)。
 
 # 环境配置
 
@@ -58,6 +58,9 @@ sudo steamos-readonly enable
 
 ## 推荐设置
 
+### 修改`桌面模式`语言
+你可以参考 KDE UserBase Wiki的教程来修改`桌面模式`的语言: [https://userbase.kde.org/Tutorials/Change_Plasma_Language](https://userbase.kde.org/Tutorials/Change_Plasma_Language)
+
 ### 配置 `Flatpak`
 对于 `大多数用户`来说，可以跳过这部分。这部分是为使用`Discover`有困难的用户而准备，主要面向中国用户。
 
@@ -75,7 +78,7 @@ sudo flatpak remote-add flathub https://mirror.sjtu.edu.cn/flathub/flathub.flatp
 一些插件可能依赖你的浏览器来做设置，所以安装一个浏览器还是有必要的。你可以安装任何你喜欢的浏览器，直接在`Discover`搜索即可。
 
 ### 启用`远程桌面`
-Steam Deck 使用 `KDE Plasma` 桌面, 它自带了 `KDE Desktop Sharing`这个功能。
+Steam Deck 使用 `KDE Plasma` 桌面, 我们可以使用`krfb`来开启远程桌面服务。
 
 我们需要在Deck上安装`krfb`, 然后使用 `VNC` 协议来连接我们的Deck, Deck需要处于`桌面模式`下。
 
@@ -83,8 +86,7 @@ Steam Deck 使用 `KDE Plasma` 桌面, 它自带了 `KDE Desktop Sharing`这个�
 sudo pacman -Sy krfb
 ```
 
-笔记:
-1. 如果您`使用pacman安装包时遇到unknown trust`, 请运行以下命令:
+如果您`使用pacman安装包时遇到unknown trust`, 请运行以下命令:
 ```shell
 # 第一步
 sudo pacman-key --init
@@ -96,12 +98,17 @@ sudo pacman-key --populate holo
 
 然后, 重新运行您的命令。
 
-2. 在之前的步骤中, 我们为当前用户 **`设置过密码`**，所以您在远程连接的过程中可能会被要求输入密码。
+最后, 使用`VNC客户端`来连接。Windows平台可以使用`VNC Viewer`。
 
+下图为：`Royal TSX`。
+
+`默认端口: 5900`
+
+![remote](./.github/remote-desktop.png)
 
 # 个性化设置
 
-## Google Chrome
+## Google Chrome浏览器
 直接在`Discover`搜索安装。
 
 ## Decky Loader
