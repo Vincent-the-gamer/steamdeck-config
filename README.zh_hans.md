@@ -188,3 +188,6 @@ curl -L https://github.com/SteamDeckHomebrew/decky-installer/releases/latest/dow
 ![recommend](./.github/chiaki4deck-recommend.png)
 
 如果你的连接不稳定或者缓慢，推荐将比特率调至10000。
+
+>[!NOTE]
+> PSN base64 ID在这里获取，请复制Chiaki的结果： [https://psn.flipscreen.games/](https://psn.flipscreen.games/)

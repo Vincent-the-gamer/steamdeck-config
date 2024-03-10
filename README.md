@@ -190,3 +190,6 @@ Recommended video config:
 ![recommend](./.github/chiaki4deck-recommend.png)
 
 Change the bitrate to 10000 if your connection is unstable or slow.
+
+>[!NOTE]
+> To get your base64 PSN account for chiaki, See [https://psn.flipscreen.games/](https://psn.flipscreen.games/)
