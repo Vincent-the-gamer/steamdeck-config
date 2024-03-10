@@ -174,7 +174,17 @@ curl -L https://github.com/SteamDeckHomebrew/decky-installer/releases/latest/dow
 ## RPCS3 (PS3模拟器)
 我准备了另外一个仓库: [https://github.com/Vincent-the-gamer/linux-rpcs3-quickstart](https://github.com/Vincent-the-gamer/linux-rpcs3-quickstart)
 
-# Todo列表
-- `Chiaki4deck` - 在Steam Deck上串流游玩PlayStation主机游戏。
-- `Yuzu`(可能吧) - 模拟`Nintendo Switch`, 但是我已经有Switch了还需要吗, emmm..... 
-- ...
+## Chiaki4deck (串流游玩PS4/PS5)
+![chiaki4deck](./.github/chiaki4deck.png)
+
+### 安装
+在桌面模式下使用`Discover`搜索安装。
+
+### 配置
+参考官网: [https://streetpea.github.io/chiaki4deck/setup](https://streetpea.github.io/chiaki4deck/setup)
+
+推荐视频设置选项:
+
+![recommend](./.github/chiaki4deck-recommend.png)
+
+如果你的连接不稳定或者缓慢，推荐将比特率调至10000。

@@ -176,7 +176,17 @@ Sometimes, `Decky` disappear after `SteamOS update`, just reinstall it using the
 ## RPCS3 (PS3 Emulator)
 See this part in my repo: [https://github.com/Vincent-the-gamer/linux-rpcs3-quickstart](https://github.com/Vincent-the-gamer/linux-rpcs3-quickstart)
 
-# Todo List
-- `Chiaki4deck` - Streaming PlayStation consoles on Steam Deck.
-- `Yuzu`(maybe) - Emulating `Nintendo Switch`, but let me think more about it as I already have a Switch, hmmm..... 
-- ...
+## Chiaki4deck (Stream play PS4/PS5 games)
+![chiaki4deck](./.github/chiaki4deck.png)
+
+### Installation
+Search and install it in `Discover`(Desktop mode).
+
+### Configuration
+See: [https://streetpea.github.io/chiaki4deck/setup](https://streetpea.github.io/chiaki4deck/setup)
+
+Recommended video config:
+
+![recommend](./.github/chiaki4deck-recommend.png)
+
+Change the bitrate to 10000 if your connection is unstable or slow.
