@@ -119,6 +119,7 @@ Windows平台可以使用`VNC Viewer`。
 ## AUR
 
 如果你想安装 AUR (Arch User Repository) 的软件包, 请安装一款AUR助手。
+
 大部分情况下，你需要安装`base-devel`，以便于AUR助手构建软件。
 
 ```shell

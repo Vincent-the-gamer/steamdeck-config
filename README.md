@@ -122,6 +122,7 @@ The app in the picture below is `Royal TSX`.
 ## AUR
 
 If you want to install AUR(Arch User Repository) packages, please install an AUR helper.
+
 `base-devel` is needed in most cases.
 
 ```shell
