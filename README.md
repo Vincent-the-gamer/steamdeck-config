@@ -138,12 +138,14 @@ sudo pacman -Sy yay
 ## Localsend
 Wirelessly transfer files in local network.
 
-AUR helper required!!!
+AUR helper is required!!!
 
 ```shell
 paru -Sy localsend-bin
 # or yay -Sy
 ```
+
+![localsend](.github/localsend.png)
 
 ## Google Chrome
 Directly install it through `Discover`.
