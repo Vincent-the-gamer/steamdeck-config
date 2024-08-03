@@ -142,6 +142,8 @@ paru -Sy localsend-bin
 # 或者yay -Sy
 ```
 
+![localsend](.github/localsend.png)
+
 
 ## Google Chrome浏览器
 直接在`Discover`搜索安装。
