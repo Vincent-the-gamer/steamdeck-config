@@ -179,6 +179,10 @@ curl -L https://github.com/SteamDeckHomebrew/decky-installer/releases/latest/dow
 
 # China mirror
 curl -L http://dl.ohmydeck.net | sh
+
+# Local Script
+# Find `install_decky_loader.sh` in this repo, and download or copy it.
+./install_decky_loader.sh
 ```
 
 Finally, Switch to `Gaming Mode` and push `...` button, you can see `Decky` menu.
@@ -189,8 +193,9 @@ If you installed it with `decky_installer.desktop`, please choose `uninstall dec
 
 If you installed it with `shell script`, run:
 ```shell
-# uninstall_release.sh
-curl -L https://github.com/SteamDeckHomebrew/decky-installer/releases/latest/download/uninstall_release.sh | sh
+# Local Script
+# Find `uninstall_decky_loader.sh` in this repo, and download or copy it.
+./uninstall_decky_loader.sh
 ```
 
 ### Notice

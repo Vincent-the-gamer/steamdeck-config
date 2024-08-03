@@ -176,6 +176,10 @@ curl -L https://github.com/SteamDeckHomebrew/decky-installer/releases/latest/dow
 
 # 国内镜像
 curl -L http://dl.ohmydeck.net | sh
+
+# 本地脚本
+# 在该代码仓库中找到 `install_decky_loader.sh`，并且下载或者直接拷贝，然后本地运行
+./install_decky_loader.sh
 ```
 
 最后, 切换到`游戏模式`，按下`...` 键, 就可以找到`Decky`。
@@ -188,8 +192,9 @@ curl -L http://dl.ohmydeck.net | sh
 
 如果您曾使用`Konsole终端输入脚本方式`安装, 运行以下脚本卸载:
 ```shell
-# uninstall_release.sh
-curl -L https://github.com/SteamDeckHomebrew/decky-installer/releases/latest/download/uninstall_release.sh | sh
+# 本地脚本
+# 在该代码仓库中找到 `uninstall_decky_loader.sh`，并且下载或者直接拷贝，然后本地运行
+./uninstall_decky_loader.sh
 ```
 
 ### 注意
