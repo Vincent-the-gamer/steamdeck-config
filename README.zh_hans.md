@@ -116,6 +116,33 @@ Windows平台可以使用`VNC Viewer`。
 
 # 个性化设置
 
+## AUR
+
+如果你想安装 AUR (Arch User Repository) 的软件包, 请安装一款AUR助手。
+大部分情况下，你需要安装`base-devel`，以便于AUR助手构建软件。
+
+```shell
+# 安装base-devel
+sudo pacman -S base-devel
+
+# 安装AUR助手
+sudo pacman -Sy paru
+# 或者
+sudo pacman -Sy yay
+# 其它工具也行...
+```
+
+## Localsend
+在局域网无线传输文件.
+
+需要AUR助手!!!
+
+```shell
+paru -Sy localsend-bin
+# 或者yay -Sy
+```
+
+
 ## Google Chrome浏览器
 直接在`Discover`搜索安装。
 
