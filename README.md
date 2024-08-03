@@ -121,19 +121,24 @@ The app in the picture below is `Royal TSX`.
 
 ## AUR
 
-if you want to install AUR(Arch User Repository) packages, please install an AUR helper.
+If you want to install AUR(Arch User Repository) packages, please install an AUR helper.
+`base-devel` is needed in most cases.
 
 ```shell
+# Install base-devel
+sudo pacman -S base-devel
+
+# Install AUR helper
 sudo pacman -Sy paru
 # or
 sudo pacman -Sy yay
 # etc...
 ```
 
-## localsend
+## Localsend
 Wirelessly transfer files in local network.
 
-AUR Required!!!
+AUR helper required!!!
 
 ```shell
 paru -Sy localsend-bin
