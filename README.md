@@ -119,6 +119,27 @@ The app in the picture below is `Royal TSX`.
 
 # Customizations
 
+## AUR
+
+if you want to install AUR(Arch User Repository) packages, please install an AUR helper.
+
+```shell
+sudo pacman -Sy paru
+# or
+sudo pacman -Sy yay
+# etc...
+```
+
+## localsend
+Wirelessly transfer files in local network.
+
+AUR Required!!!
+
+```shell
+paru -Sy localsend-bin
+# or yay -Sy
+```
+
 ## Google Chrome
 Directly install it through `Discover`.
 
