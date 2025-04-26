@@ -13,8 +13,11 @@ My Steam Deck config and customization.
 <p align="center">
     <span>English</span>
     <span style="margin-inline: 3px;">|</span>
-    <a href="./README.zh_hans.md">简体中文</a>
+    <a href="https://blog.vince-g.xyz/posts/steamdeck-config-zh">简体中文</a>
 </p>
+
+> [!CAUTION]
+> Deprecated, please see [https://blog.vince-g.xyz/posts/steamdeck-config](https://blog.vince-g.xyz/posts/steamdeck-config)
 
 # Preparation
 Mostly, we config our Steam Deck in `Desktop Mode`, so I highly recommend you connect your device with
