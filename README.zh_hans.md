@@ -11,10 +11,14 @@ Steam Deck 配置
 </p>
 
 <p align="center">
-    <a href="./README.md">English</a>
+    <a href="https://blog.vince-g.xyz/posts/steamdeck-config">English</a>
     <span style="margin-inline: 3px;">|</span>
     <span>简体中文</span>
 </p>
+
+> [!CAUTION] 注意
+> 本文档已弃用, 请看 [https://blog.vince-g.xyz/posts/steamdeck-config-zh](https://blog.vince-g.xyz/posts/steamdeck-config-zh)
+
 
 # 准备工作
 大多数情况下，我们会在`桌面模式`下进行环境配置, 所以我强烈推荐您使用`USB 扩展坞`，外接键盘鼠标进行操作，当然，`蓝牙`鼠标和键盘也可以。
